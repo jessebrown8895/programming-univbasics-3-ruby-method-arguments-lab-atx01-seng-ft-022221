@@ -10,8 +10,9 @@ end
 
 introduction_with_language("Dan", "Ember.js")
 
-introduction_with_language_optional(name, language)
+def introduction_with_language_optional(name, language)
 puts "Hi, my name is #{name} and I am learning to progarm in #{langauge}."
+end
 
 
 introduction_with_language_optional("Jesse", "Ruby")
